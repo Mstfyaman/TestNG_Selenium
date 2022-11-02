@@ -23,5 +23,13 @@ public class XpathWithAnd {
 
 
 
+
+        // AND İÇİN KALIP ;  //TagName[@attribute1=‘value1’] [@attribute2=‘value2’]
+        //TagName[@attribute1=‘value1’ and @attribute2=‘value2’     and kullanacaksak içteki [] ler kalkar
+
+
+        // OR İÇİN KALIP ; //TagName[@attribute1=‘value1’ or @attribute2=‘value2’]
+
+
     }
 }

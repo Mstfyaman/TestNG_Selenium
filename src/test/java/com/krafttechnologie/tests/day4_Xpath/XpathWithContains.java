@@ -16,5 +16,8 @@ public class XpathWithContains {
         System.out.println("text = " + text);
 
 
+        // KALIP ; //TagName[contains(text(),‘exact text’)]
+
+
     }
 }

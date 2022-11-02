@@ -18,5 +18,8 @@ public class XpathWithText {
         System.out.println("text = " + text);
 
 
+        // KALIP ; //TagName[text( )=‘tam metin’] veya //TagName[.=‘tam metin’]
+
+
     }
 }

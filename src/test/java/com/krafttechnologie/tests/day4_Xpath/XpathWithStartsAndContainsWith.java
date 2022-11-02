@@ -20,6 +20,7 @@ public class XpathWithStartsAndContainsWith {
             searchHbtn.click();
 
 
+         // KALIP ; //TagName[starts-with(@Attribute,‘value’)]
 
     }
 }
