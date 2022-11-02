@@ -13,7 +13,7 @@ public class AbsoluteXpath {
       //  driver.manage().window().maximize();
 
         String accualText= driver.findElement(By.xpath("/html/body/main/div/h1")).getText();
-        // burda child classtan parrent classla doğru yazdık.  bunu kısayol olarak siteden copy=full xpath ile alabiliriz.
+        // burda child classtan parrent classa doğru yazdık.  bunu kısayol olarak siteden copy=full xpath ile alabiliriz.
         System.out.println("accualText = " + accualText);
 
 

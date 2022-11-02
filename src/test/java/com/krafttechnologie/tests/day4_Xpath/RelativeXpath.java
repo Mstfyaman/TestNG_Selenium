@@ -19,5 +19,10 @@ public class RelativeXpath {
         //bakmayi ifade eder
 
 
+        // KALIP;    //tagname[@attribute='value']    baba kalıp bu.
+
+          //   çoklu değer varsa ve biz belli bir değere gitmek istiyorsak    (//tagname[@attribute='value'])[index]    parantezlere dikkat!!!
+
+
     }
 }

@@ -19,7 +19,7 @@ public class XpathWithText {
 
 
         // KALIP ; //TagName[text( )=‘tam metin’] veya //TagName[.=‘tam metin’]
-
+            //  text denilen mevzu, neyi arıyorsak direk o. yani sell i aradık buraya inceledeki sell i yazacağız.
 
     }
 }
