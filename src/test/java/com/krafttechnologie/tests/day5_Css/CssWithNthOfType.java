@@ -22,6 +22,8 @@ public class CssWithNthOfType {
 
 
 
-        // KALIP ;  tagname[attribute='value']:nth-of-type(index)    // çok fazla olduğunda 1. index e git dedik.
+        // KALIP ;  tagname[attribute='value']:nth-of-type(index)
+         // çok fazla olduğunda istediğimiz index e gideriz. biz 1. indexe gittik.
+
     }
 }

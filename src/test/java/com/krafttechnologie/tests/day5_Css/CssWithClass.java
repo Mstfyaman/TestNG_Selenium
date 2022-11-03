@@ -19,6 +19,7 @@ public class CssWithClass {
 
         Thread.sleep(3000);
 
-            // KALIP ;   .
+        // KALIP ;  Syntax: class icin . isareti kullanilir. Locate edreken . isareti konulup
+        //value yazilir: .className     class name den önce nokta koyuyoruz.
     }
 }

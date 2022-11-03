@@ -23,7 +23,7 @@ public class CssWithStartsWith {
 
 
 
-        // KALIP ;  tagname[atrribute^='value']
+        // KALIP;   CSS icin --------- > TagName[Attribute^=‘value’]
 
     }
 }

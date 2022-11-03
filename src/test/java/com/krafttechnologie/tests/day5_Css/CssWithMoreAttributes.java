@@ -5,7 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class CssWithAttributes {
+public class CssWithMoreAttributes {
     public static void main(String[] args) {
 
 
@@ -16,7 +16,12 @@ public class CssWithAttributes {
         System.out.println("componentText.getText() = " + componentText.getText());
 
 
-        // KALIP;    //tagname[attribute='value']
+
+
+        // KALIP ;  CSS icin ------- > TagName[Attribute1=‘value1’] > TagName [Attribute2=‘value2’]
+             // Syntax: yalnizca child elemente gitmek icin kulanilir(sadece bir seviye asagiya
+                //gider). Parent xpath in sonuna > isareti konularak kullanilir.
+
 
 
     }

@@ -23,7 +23,8 @@ public class CssWithId {
 
 
 
-        // KALIP ;  #
+         // KALIP ; Syntax: id icin # isareti kullanilir. Locate edreken # isareti konulup
+             //  value yazilir: #id
 
 
 
