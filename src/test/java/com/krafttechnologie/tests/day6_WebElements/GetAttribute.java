@@ -9,7 +9,7 @@ public class GetAttribute {
     public static void main(String[] args) throws InterruptedException {
 
         // two ways get text from web element
-        // 1. getText() --> it will work %99 end it will return string
+        // 1. getText() --> it will work %99 and it will return string
         // 2. getAttribute("AttributeName") --> second way of getting text espicially input box
 
 
