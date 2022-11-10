@@ -31,7 +31,7 @@ public class DropDownPractice3 {
     @Test
     public void test() throws InterruptedException {
 
-/*
+   /*
     1. go to http://webdriveruniversity.com/Dropdown-Checkboxes-RadioButtons/index.html
     2. Radio Button  kutusundaki elementlerin sayisini bul ve tum elementleri yazdir
     3. Blue elementini sec
