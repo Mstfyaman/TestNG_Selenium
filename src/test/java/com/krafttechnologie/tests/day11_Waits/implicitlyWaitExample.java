@@ -44,7 +44,9 @@ public class implicitlyWaitExample {
         Assert.assertEquals(message.getText(),"It's gone!");
 
 
-
+        // istediğimiz alan daha yok, belli bir süre sonra exist olacak. o yüzden beklenmesi gerekiyor
+        // beklenmese java exception atıyor. belli süre beklendikten sonra exist oluyor ve buluyoruz
+        // bunun için implicitlyWait kullanıyoruz
 
     }
 }

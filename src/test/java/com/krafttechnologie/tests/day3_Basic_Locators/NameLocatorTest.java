@@ -28,7 +28,7 @@ public class NameLocatorTest {
         Thread.sleep(2000);
 
         driver.findElement(By.cssSelector(".btn.btn-primary.w-100")).click();
-        // logib tuşu ( button ) a basmak için. Daha sonra CSS dersinde anlatılacak.(noktaların olduğu yerler boşluktu.)
+        // login tuşu ( button ) a basmak için. Daha sonra CSS dersinde anlatılacak.(noktaların olduğu yerler boşluktu.)
 
 
 

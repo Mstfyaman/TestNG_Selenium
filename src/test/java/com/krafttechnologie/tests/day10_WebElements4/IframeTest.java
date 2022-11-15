@@ -37,7 +37,7 @@ public class IframeTest {
         driver.switchTo().frame("mce_0_ifr");   // frame yi değiştir dedik.
 
         WebElement textArea = driver.findElement(By.cssSelector("#tinymce"));
-        textArea.clear();
+        textArea.clear();    // burası yazılı bir alandı orayı temizledik.
         Thread.sleep(2000);
         textArea.sendKeys("Batch 2 was here");
 

@@ -46,7 +46,7 @@ public class TestNGAnnotationDemo {
 //            System.out.println("FAİLED");
 //        }
 
-        Assert.assertTrue(email.contains("@"));  // bu durm ile yukarıdaki if durumu aynı şey. yöntemler farklı
+        Assert.assertTrue(email.contains("@"));  // bu durum ile yukarıdaki if durumu aynı şey. yöntemler farklı
             // true olunca method pass oluyor false olursa exception atıyor
     }
 

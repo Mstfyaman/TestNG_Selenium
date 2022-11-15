@@ -22,7 +22,7 @@ public class CloseAndQuit {
 
         // kapatma işlemi yaptıktan sonra tekrar driver4=new chtormeDriver();  koymamız gerekir. aksi takdirde kod kapatmadan sonra çalışmaz.
         driver4 = new ChromeDriver();
-
+//****   üsteki önemli 24. satır
 
         // go to https://www.facebook.com web adress git.
         driver4.get("https://www.facebook.com");

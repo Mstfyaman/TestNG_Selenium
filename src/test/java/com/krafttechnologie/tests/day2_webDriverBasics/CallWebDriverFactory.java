@@ -9,7 +9,7 @@ public class CallWebDriverFactory {
     public static void main(String[] args) throws InterruptedException {  // thread.sleep i exception yaptık.
 
 
-        // day2 deki WebDriverFactory i çağırıyoruz. mainde
+        // utilities deki WebDriverFactory i çağırıyoruz. mainde
 
 
         WebDriver driver = WebDriverFactory.getDriver("chrome");
