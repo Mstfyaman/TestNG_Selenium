@@ -1,4 +1,4 @@
-package com.krafttechnologie.tests.day12_Actions_FileUpload_ISExecutor;
+package com.krafttechnologie.tests.day12_Actions_FileUpload_JSExecutor;
 
 import com.krafttechnologie.utilities.WebDriverFactory;
 import org.openqa.selenium.By;
