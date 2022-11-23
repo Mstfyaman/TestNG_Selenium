@@ -1,5 +1,6 @@
 package com.krafttechnologie.tests;
 
+import com.krafttechnologie.utilities.ConfigurationReader;
 import com.krafttechnologie.utilities.Driver;
 import com.krafttechnologie.utilities.WebDriverFactory;
 import org.openqa.selenium.WebDriver;
@@ -20,6 +21,7 @@ public class TestBase {
     public void setUp() {
 
         driver = Driver.get();
+        driver.get(ConfigurationReader.get("url"));
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
         wait = new WebDriverWait(Driver.get(),15);
         actions = new Actions(driver);
