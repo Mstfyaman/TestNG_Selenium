@@ -57,6 +57,41 @@ public class FileUpload {
         String excepted = "C:\\fakepath\\Day06-Project_Task.pdf";
         Assert.assertEquals(actual,excepted);
 
+    }
+
+    @Test
+    public void upLoadFile2(){  // 23.11.2022
+
+        /*
+        - Test folder üzerinde sağ click Directory sec+resources sec
+        - File copy ey resource üzantısı .txt olacak şekilde paste yap
+        - Sonra projenin sistemdeki path ini aliyoruz;
+        String projectPath= System.getProperty("user.dir");
+
+
+        String FilePath="src/test/resources/Yeni Metin Belgesi Text.txt";
+         */
+
+
+        driver.get("https://demoqa.com/upload-download");
+
+        WebElement chooseFİle = driver.findElement(By.cssSelector("#uploadFile"));
+
+        String projectPath= System.getProperty("user.dir");
+        String FilePath="src/test/resources/Yeni Metin Belgesi Text.txt";
+
+        String fullPath= projectPath+"/"+FilePath;
+        chooseFİle.sendKeys(fullPath);
+
+        WebElement testMsj = driver.findElement(By.id("uploadedFilePath"));;
+
+        System.out.println("testMsj.getText() = " + testMsj.getText());
+        String actual = testMsj.getText();
+        String excepted = "Yeni Metin Belgesi Text.txt";
+
+        Assert.assertTrue(actual.contains(excepted));
 
     }
+
+
 }

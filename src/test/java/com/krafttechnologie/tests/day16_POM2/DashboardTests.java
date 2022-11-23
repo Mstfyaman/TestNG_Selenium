@@ -1,6 +1,5 @@
-package com.krafttechnologie.tests.day16_POM1;
+package com.krafttechnologie.tests.day16_POM2;
 
-import com.krafttechnologie.pages.BasePage;
 import com.krafttechnologie.pages.DashboardPage;
 import com.krafttechnologie.pages.LoginPages;
 import com.krafttechnologie.tests.TestBase;
