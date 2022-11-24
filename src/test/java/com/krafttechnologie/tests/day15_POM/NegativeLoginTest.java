@@ -3,8 +3,6 @@ package com.krafttechnologie.tests.day15_POM;
 import com.krafttechnologie.pages.LoginPages;
 import com.krafttechnologie.tests.TestBase;
 import com.krafttechnologie.utilities.ConfigurationReader;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -21,7 +19,7 @@ public class NegativeLoginTest extends TestBase {
       //  LoginPages loginPages = new LoginPages();
         //  üstteki objeyi method dışında, class içinde tanımladık ve bütün methodlarda ortak kullanabiliriz.
 
-        loginPages.userNameInput_loc.sendKeys(ConfigurationReader.get("username"));
+        loginPages.userEmailInput_loc.sendKeys(ConfigurationReader.get("userEmail"));
         Thread.sleep(1000);
         loginPages.passwordInput_loc.sendKeys("somepassword");
         Thread.sleep(1000);
@@ -50,7 +48,7 @@ public class NegativeLoginTest extends TestBase {
 
 
 
-        loginPages.userNameInput_loc.sendKeys("someusername");
+        loginPages.userEmailInput_loc.sendKeys("someusername");
         Thread.sleep(1000);
         loginPages.passwordInput_loc.sendKeys(ConfigurationReader.get("password"));
         Thread.sleep(1000);

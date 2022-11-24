@@ -1,4 +1,4 @@
-package com.krafttechnologie.tests.day14_properties_Singleton;
+package com.krafttechnologie.tests.day14_Properties_Singleton;
 
 import com.krafttechnologie.utilities.ConfigurationReader;
 import com.krafttechnologie.utilities.WebDriverFactory;
@@ -26,7 +26,7 @@ public class PropertiesTest {
 
         driver.get(ConfigurationReader.get("url"));
 
-    driver.findElement(By.xpath("//input[@name='email']")).sendKeys(ConfigurationReader.get("username"));
+    driver.findElement(By.xpath("//input[@name='email']")).sendKeys(ConfigurationReader.get("userEmail"));
     driver.findElement(By.xpath("//input[@name='password']"))
             .sendKeys(ConfigurationReader.get("password")+ Keys.ENTER);
 

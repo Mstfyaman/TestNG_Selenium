@@ -1,4 +1,4 @@
-package com.krafttechnologie.tests.day15_POM.day13_WebTables;
+package com.krafttechnologie.tests.day13_WebTables;
 
 import com.krafttechnologie.utilities.WebDriverFactory;
 import org.openqa.selenium.By;

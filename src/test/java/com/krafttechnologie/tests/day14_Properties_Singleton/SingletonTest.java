@@ -1,8 +1,7 @@
-package com.krafttechnologie.tests.day14_properties_Singleton;
+package com.krafttechnologie.tests.day14_Properties_Singleton;
 
 import com.krafttechnologie.utilities.ConfigurationReader;
 import com.krafttechnologie.utilities.Driver;
-import com.krafttechnologie.utilities.WebDriverFactory;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 

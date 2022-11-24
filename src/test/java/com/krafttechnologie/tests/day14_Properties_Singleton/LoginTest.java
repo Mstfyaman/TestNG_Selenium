@@ -1,13 +1,11 @@
-package com.krafttechnologie.tests.day14_properties_Singleton;
+package com.krafttechnologie.tests.day14_Properties_Singleton;
 
 import com.krafttechnologie.pages.DashboardPage;
 import com.krafttechnologie.pages.LoginPages;
 import com.krafttechnologie.tests.TestBase;
 import com.krafttechnologie.utilities.ConfigurationReader;
-import com.krafttechnologie.utilities.WebDriverFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -24,7 +22,7 @@ public class LoginTest extends TestBase {
 
         driver.get(ConfigurationReader.get("url"));
 
-        driver.findElement(By.xpath("//input[@name='email']")).sendKeys(ConfigurationReader.get("username"));
+        driver.findElement(By.xpath("//input[@name='email']")).sendKeys(ConfigurationReader.get("userEmail"));
         driver.findElement(By.xpath("//input[@name='password']"))
                 .sendKeys(ConfigurationReader.get("password")+ Keys.ENTER);
     }

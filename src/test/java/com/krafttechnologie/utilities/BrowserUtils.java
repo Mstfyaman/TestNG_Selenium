@@ -17,6 +17,15 @@ import java.util.List;
 
 public class BrowserUtils {
 
+
+    public void uploadFileWithPaths(WebElement element,String filePath){
+        String projectPath= System.getProperty("user.dir");
+        String relatedFilePath=filePath;
+        String fullPath= projectPath+"/"+relatedFilePath;
+        element.sendKeys(fullPath);
+
+    }
+
     /*
      * takes screenshot
      * @param name

@@ -1,4 +1,4 @@
-package com.krafttechnologie.tests.day14_properties_Singleton;
+package com.krafttechnologie.tests.day14_Properties_Singleton;
 
 public class Singleton {
 
