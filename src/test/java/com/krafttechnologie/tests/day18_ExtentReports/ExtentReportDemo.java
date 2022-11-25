@@ -65,7 +65,7 @@ public class ExtentReportDemo  {
     }
 
     @AfterMethod
-    // tihsi s when the repor is actualy created
+    // this is when the repor is actualy created
     public void tearDown() {
         report.flush();
     }
