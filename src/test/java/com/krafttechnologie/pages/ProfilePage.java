@@ -80,6 +80,9 @@ public class ProfilePage extends BasePage{
     @FindBy(xpath = "//button[@value='experience']")
     public WebElement addExperienceBtn;
 
+    @FindBy(xpath = "//input[@id='email']")
+    public WebElement profilEmail_loc;
+
 
 
 }

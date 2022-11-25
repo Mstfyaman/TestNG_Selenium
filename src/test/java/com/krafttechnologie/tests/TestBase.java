@@ -36,6 +36,8 @@ public class TestBase {
       //create a report path
       String projectPath = System.getProperty("user.dir");  // projenin pathini alır **
       String reportPath = projectPath+ "/test-output/report.html";
+//     String date = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());   // çoklu almak istersek burası ve alt satırı aç-üstü kapat
+//     String reportPath=projectPath + "/test-output/report"+date+".html";
 
       // initialize the html report with the reportPath
       htmlReporter = new ExtentHtmlReporter(reportPath);
@@ -72,26 +74,6 @@ public class TestBase {
 
     }
 
-//    @AfterMethod
-//    public void tearDown(ITestResult result) throws InterruptedException, IOException {
-//
-//      // if test Fails
-//        if (result.getStatus()==ITestResult.FAILURE){
-//
-//            //Record the name of failed test
-//            extentLogger.fail(result.getName());
-//            //Take the screenshot and return the location of screenshot
-//            String screenShotPath= BrowserUtils.getScreenshot(result.getName());
-//            //Add the screenshot to the report
-//            extentLogger.addScreenCaptureFromPath(screenShotPath);
-//            //Caprure the exception and put inside the report
-//            extentLogger.fail(result.getThrowable());
-//        }
-//
-//        Thread.sleep(3000);
-//        // driver.close();
-//        driver.quit();
-//    }
 
     @AfterMethod
     public void tearDown(ITestResult result) throws InterruptedException, IOException {
@@ -110,7 +92,8 @@ public class TestBase {
         }
 
         Thread.sleep(2000);
-        driver.close();
+      //  driver.close();
+        Driver.closeDriver();
 
     }
 
