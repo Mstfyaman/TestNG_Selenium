@@ -51,7 +51,7 @@ public class IframeTest {
 
 
         driver.switchTo().parentFrame();
-        // thirt wat using WEB ELEMENT
+        // thirt way using WEB ELEMENT
         WebElement iframe = driver.findElement(By.tagName("iframe"));  // burda web element olarak tagname kullandık
         driver.switchTo().frame(iframe);
         textArea.clear();

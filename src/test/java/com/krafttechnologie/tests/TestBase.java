@@ -52,7 +52,8 @@ public class TestBase {
       report.setSystemInfo("Environment","Production");
       report.setSystemInfo("Browser", ConfigurationReader.get("browser"));  // ?
       report.setSystemInfo("OS", System.getProperty("os.name")); // windosw mu? ios mu? sistemi gösterir.
-      report.setSystemInfo("Test Engineer", "Mustafa");
+      report.setSystemInfo("Software Test Engineer", "Mustafa");
+
   }
 
   @AfterTest

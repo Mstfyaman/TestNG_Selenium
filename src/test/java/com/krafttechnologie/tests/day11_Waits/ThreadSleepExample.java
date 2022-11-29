@@ -44,7 +44,7 @@ public class ThreadSleepExample {
         // 1. java kaynaklı bir wait metodudur
         // 2. süreci milisaniye olarak durdurur
         // 3. belirlenen zaman kadar durdurur( hepsini beklemek zorundayız)
-        // 4. uzun veya kısaa olmamasına dikkat edilmelidir
+        // 4. uzun veya kısa olmamasına dikkat edilmelidir
         // NOT RECOMENDDED
         // 5. kullanılması durumunda minimum tercih edilmeli
         // 6. Thread.Sleeo testin koşturulmasını oldukça yavaşlatıyor

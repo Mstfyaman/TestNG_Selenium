@@ -33,5 +33,14 @@ public class LoginPages extends BasePage{
     }
 
 
+    public void loginWithParameter (String email, String password){   // ( DDF )
+
+
+        userEmailInput_loc.sendKeys(email);
+        passwordInput_loc.sendKeys(password);
+        loginButton_loc.click();
+    }
+
+
 
 }

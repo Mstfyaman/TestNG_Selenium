@@ -62,7 +62,7 @@ public class PopUpAndAlerts {
 
         // e.g.:1  switch to JS alert pop up
         Alert alert = driver.switchTo().alert();
-        //  alarmı inpeckt edemediğimizden böyle yapmak mecburiyetindeyiz ve böylece ortam değiştiriyoruz.
+        //  alarmı inpect edemediğimizden böyle yapmak mecburiyetindeyiz ve böylece ortam değiştiriyoruz.
         Thread.sleep(1000);
         // click ok
         alert.accept();  // click eder.
