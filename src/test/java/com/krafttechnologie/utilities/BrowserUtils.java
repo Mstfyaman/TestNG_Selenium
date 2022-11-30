@@ -45,6 +45,23 @@ public class BrowserUtils {
         return target;
     }
 
+    // Web sayfasının ekranı küçültme,büyüktme ( zoom )
+    // pencerenin boyutunu en ve genişliini ayarlıyor
+    public static void setWindowPoint(int x, int y){
+        Driver.get().manage().window().setPosition(new Point(x,y));
+    }
+
+
+    // Web sayfasının ekranı küçültme,büyüktme ( zoom )
+    // pencere başlangıç noktasını ayarlıyor,
+    public static void dimensionalAdjustmentForWindow(int x, int y){
+
+        Dimension dimension = new Dimension(x, y);
+        Driver.get().manage().window().setSize(dimension);
+    }
+
+
+
     /**
      * Switches to new window by the exact title. Returns to original window if target title not found
      * @param targetTitle
