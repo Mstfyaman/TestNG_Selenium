@@ -19,6 +19,7 @@ public class DDFLoginTest extends TestBase {
         // iki parametre giriyoruz; excel file path ve sayfa(sheet) adı
 
         ExcelUtil qaTeam3= new ExcelUtil("src/test/resources/LoginList.xlsx","QaTeam3");
+        // QaTeam3 sayfasındaki bilgilerle( kullanıcı ad ve şifreleri ) işlem yapacağız, burda onları aldık.
 
         // exceldeki title bizim işimize yaramayacağı için onu haric bırakıyoruz ( your name, password gibi yerler )
         String [][] dataArray = qaTeam3.getDataArrayWithoutFirstRow();

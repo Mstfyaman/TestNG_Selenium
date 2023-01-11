@@ -14,7 +14,7 @@ public class ExcelUtilPractice {
 
            /*
           ExcelUtiil den bir object oluşturacağız
-          Obje ik tane parametre(argument) alacak
+          Obje iki tane parametre(argument) alacak
           Bunlar; dosyanın pathi ile çalışma yaptığımız sayfanın adı olacak
             */
 
@@ -61,6 +61,10 @@ public class ExcelUtilPractice {
         String [][] dataArray = qaTeam3.getDataArray();
         System.out.println(Arrays.deepToString(dataArray));  // deepToString ile yazdırmamız gerekiyor. gücü yetmez .)
 
+
+
+
+        System.out.println("qaTeam3.getCellData(0,0) = " + qaTeam3.getCellData(4, 2));
 
 
     }
